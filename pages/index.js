@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <main className='py-24 lg:py-48 text-center'>
         <div className="mb-6 px-2">
-          <img class='h-60 mx-auto' src="/twitter.png" alt="" />
+          <img className='h-60 mx-auto' src="/twitter.png" alt="" />
           <h1 className="bg-clip-text text-transparent  bg-gradient-to-bl from-sky-400 to-blue-500 text-4xl lg:text-5xl font-black mb-2">
             Twitter Outreach Made Easy
           </h1>
@@ -31,7 +31,7 @@ export default function Home() {
           <div className='lg:w-1/3 p-4 max-w-lg mx-auto'>
             <div className='how-it-works-step bg-white p-6 rounded-3xl shadow h-full'>
               <video width='320' height='240' controls className='mx-auto rounded-2xl border-2 my-3'>
-                <source src="/twitter-add-to-list.webm" type="video/webm"/>
+                <source src="/twitter-add-to-list.webm" width="100%" height="100%" type="video/webm"/>
               Your browser does not support the video tag.
               </video>
               <p className='font-bold mt-6 mb-2 text-xl'>
