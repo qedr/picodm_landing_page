@@ -3,17 +3,18 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='w-full'>
       <Head>
         <title>Pico DM</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
-      <main className='py-48 text-center'>
-        <div className="mb-6">
+      <main className='py-24 lg:py-48 text-center'>
+        <div className="mb-6 px-2">
           <img class='h-60 mx-auto' src="/twitter.png" alt="" />
-          <h1 className="bg-clip-text text-transparent  bg-gradient-to-bl from-sky-400 to-blue-500 text-5xl font-black mb-2">
+          <h1 className="bg-clip-text text-transparent  bg-gradient-to-bl from-sky-400 to-blue-500 text-4xl lg:text-5xl font-black mb-2">
             Twitter Outreach Made Easy
           </h1>
-          <p className="text-gray-400 text-2xl font-medium">
+          <p className="text-gray-400 text-xl lg:text-2xl font-medium">
             Pico helps you find new customers on Twitter, send them personalized messages, and grow
             your business.
           </p>
@@ -22,12 +23,12 @@ export default function Home() {
           Get Early Access to Pico
         </button>
       </main>
-      <div id="how-it-works" className='bg-gradient-to-bl from-sky-50 to-blue-200 w-full py-16 rotate-6 rounded-3xl max-w-screen-xl mx-auto'>
-        <h2 className='text-gray-700 text-3xl font-black mb-2 text-center -rotate-6'>
+      <div id="how-it-works" className='bg-gradient-to-bl from-sky-50 to-blue-200 w-full py-16 lg:rotate-6 lg:overflow-hidden	 rounded-3xl max-w-screen-xl mx-auto'>
+        <h2 className='text-gray-700 text-3xl font-black mb-2 text-center lg:-rotate-6'>
           How does <span className='bg-clip-text text-transparent  bg-gradient-to-bl from-sky-400 to-blue-500'>Pico</span> work?
         </h2>
-        <div className="flex flex-wrap max-w-screen-lg mx-auto -rotate-6">
-          <div className='lg:w-1/3 p-4'>
+        <div className="flex flex-wrap max-w-screen-lg mx-auto lg:-rotate-6">
+          <div className='lg:w-1/3 p-4 max-w-lg mx-auto'>
             <div className='how-it-works-step bg-white p-6 rounded-3xl shadow h-full'>
               <video width='320' height='240' controls className='mx-auto rounded-2xl border-2 my-3'>
                 <source src="/twitter-add-to-list.webm" type="video/webm"/>
@@ -41,7 +42,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className='lg:w-1/3 p-4'>
+          <div className='lg:w-1/3 p-4 max-w-lg mx-auto'>
             <div className='how-it-works-step bg-white p-6 rounded-3xl shadow h-full'>
               <img src="/score.png" alt="" className='border-2 p-1 max-h-60 mx-auto rounded-3xl' />
               <p className='font-bold mt-6 mb-2 text-xl'>
@@ -53,9 +54,9 @@ export default function Home() {
               </p>
             </div>
           </div >
-            <div className='lg:w-1/3 p-4'>
+            <div className='lg:w-1/3 p-4 max-w-lg mx-auto'>
             <div className='how-it-works-step bg-white p-6 rounded-3xl shadow h-full'>
-              <img src="/custom-messages.png" alt="" className='mx-auto rounded-3xl border-2 p-1' />
+              <img src="/custom-messages.png" alt="" className='mx-auto max-h-60 rounded-3xl border-2 p-1' />
               <p className='font-bold mt-6 mb-2 text-xl'>
               3. Send custom messages at scale
               </p>
