@@ -19,9 +19,10 @@ export default function Home() {
             your business.
           </p>
         </div>
-        <button className="hover:opacity-80 shadow-md px-4 py-2 bg-gradient-to-bl from-sky-400 to-blue-500 text-white font-bold rounded-3xl">
+
+        <a target='_blank' href='https://airtable.com/shryRlfrTkuZWsc4x' className="hover:opacity-80 shadow-md px-4 py-2 bg-gradient-to-bl from-sky-400 to-blue-500 text-white font-bold rounded-3xl">
           Get Early Access to Pico
-        </button>
+        </a>
       </main>
       <div id="how-it-works" className='bg-gradient-to-bl from-sky-50 to-blue-200 w-full py-16 lg:rotate-6 lg:overflow-hidden	 rounded-3xl max-w-screen-xl mx-auto'>
         <h2 className='text-gray-700 text-3xl font-black mb-2 text-center lg:-rotate-6'>
