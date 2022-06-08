@@ -31,7 +31,8 @@ export default function Home() {
           <div className='lg:w-1/3 p-4 max-w-lg mx-auto'>
             <div className='how-it-works-step bg-white p-6 rounded-3xl shadow h-full'>
               <video width='320' height='240' controls className='mx-auto rounded-2xl border-2 my-3'>
-                <source src="/twitter-add-to-list.webm" width="100%" height="100%" playsInline autoPlay loop muted type='video/webm;codecs="vp8, vorbis"'/>
+                <source src="/twitter-add-to-list.webm" width="100%" height="100%" playsInline autoPlay loop muted type='video/webm'/>
+                <source src="/twitter-add-to-list.mp4" width="100%" height="100%" playsInline autoPlay loop muted type='video/mp4'/>
               Your browser does not support the video tag.
               </video>
               <p className='font-bold mt-6 mb-2 text-xl'>
